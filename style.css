@@ -1,0 +1,135 @@
+body{
+    background-color:#000000;
+}
+h1{
+    font-size: 50px; 
+    font-weight: bold;
+    font-family:'Roboto', sans-serif; 
+    color: #d0e8f2; 
+    text-shadow: 3px 3px 3px #db93b0 , -3px -3px 3px #9a78e3;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif; 
+    color: #d0e8f2;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    max-width: 1100px;
+    font-size: 24px;
+    padding: 20 px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+.navbar 
+{
+    background-color: #1a1a1a;
+}
+a{
+    color: white ;
+    font-weight: bold;
+}
+.first
+{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+    cursor:pointer;
+}
+.first:hover{
+    z-index: 2;     
+    transform: scale(1.06);
+}
+
+button{
+    margin: 4px auto; 
+    display: block;
+    color: black;
+    padding: 14px 12px; 
+    font-size: 24px; 
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.footer{
+   text-align: center;;
+    height: 70px;
+}
+.fa-brands{
+    text-align: center;
+    color: white ;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.tifa{
+    cursor: pointer;
+}
+.tifa:hover{
+    background-color: white;
+    color: black;
+}  
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.scrap{
+    display: flex;
+    gap: 12px; 
+}
+.scrap img{
+    border: 3px solid blueviolet;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.scrap img:hover{
+    z-index: 2;     
+    transform: scale(1.06);
+}
+.work{
+    display: flex;
+    gap: 20px; 
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.work img{
+    border: 3px solid blueviolet;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.work img:hover{
+    z-index: 2;     
+    transform: scale(1.06);
+}
+.hello{
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 12px;
+}
+.only{
+    text-align: center;
+    text-decoration: bold;
+    color: white;
+}
+.copy{
+    text-align: center; 
+    font-size: 12px;
+    max-width: 2100px;
+}
